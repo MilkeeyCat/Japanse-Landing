@@ -1,6 +1,17 @@
 .footer {
     background: #F7F7F7;
-    padding: 43px 330px;
-    display: flex;
-    justify-content: space-between;
+    &__inner {
+        max-width: 1260px;
+        width: 100%;
+        padding: 0 30px;
+        padding-bottom: 43px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    span {
+        margin: 0 20px;
+        margin-top: 43px;
+    }
 }
