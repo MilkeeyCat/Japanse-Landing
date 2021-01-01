@@ -3372,6 +3372,7 @@ input[type="checkbox"], input[type="radio"] {
 .content__dish img {
     -ms-flex-item-align: center;
     align-self: center;
+    max-width: 100%;
 }
 
 .content__dish-title {

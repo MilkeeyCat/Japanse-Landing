@@ -34,7 +34,6 @@
     
     &__dishes {
         background: #fff;
-        // padding: 150px 160px;
         padding: 150px 20px;
         &-inner {
             display: flex;
@@ -52,6 +51,7 @@
         margin: 0 30px;
         img {
             align-self: center;
+            max-width: 100%;
         }
         &-title {
             text-align: center;
